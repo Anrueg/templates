@@ -1,13 +1,13 @@
 $schema: "https://moonrepo.dev/schemas/template.json"
 
 extends: ["configs"]
-id: angular-app
-title: Angular application
-description: Add angular application
+id: angular-lib
+title: Angular library
+description: Add angular library
 destination: angular/[name]
 variables:
   name:
     type: "string"
     default: ""
     required: true
-    prompt: "Application name?"
+    prompt: "Library name?"

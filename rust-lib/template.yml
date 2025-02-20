@@ -1,0 +1,13 @@
+$schema: "https://moonrepo.dev/schemas/template.json"
+
+extends: ["configs"]
+id: rust-app
+title: Rust library
+description: Add rust library
+destination: rust/[name]
+variables:
+  name:
+    type: "string"
+    default: "[project_slug]"
+    required: true
+    prompt: "Library name?"

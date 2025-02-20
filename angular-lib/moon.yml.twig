@@ -4,12 +4,12 @@ id: "angular/{{ name }}"
 
 project:
   name: "{{ name }}"
-  description: "Angular applicaton: {{ name }}"
+  description: "Angular library: {{ name }}"
 
-type: application
+type: library
 stack: frontend
 language: typescript
-tags: [angular, angular-app, scss]
+tags: [angular, angular-lib, scss]
 
 fileGroups:
   sources:
@@ -26,6 +26,7 @@ fileGroups:
     - tsconfig.*.json
     - package.json
     - ng-config.json
+    - ng-package.json
 
 toolchain:
-  default: {{ frontend_toolchain }}
+  default: "{{ frontend_toolchain }}"

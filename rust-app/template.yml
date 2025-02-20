@@ -1,13 +1,13 @@
 $schema: "https://moonrepo.dev/schemas/template.json"
 
 extends: ["configs"]
-id: angular-app
-title: Angular application
-description: Add angular application
-destination: angular/[name]
+id: rust-app
+title: Rust application
+description: Add rust application
+destination: rust/[name]
 variables:
   name:
     type: "string"
-    default: ""
+    default: "[project_slug]"
     required: true
     prompt: "Application name?"
