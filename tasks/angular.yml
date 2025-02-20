@@ -1,0 +1,14 @@
+$schema: "https://moonrepo.dev/schemas/tasks.json"
+
+tasks:
+  add-cmp:
+    description: Add component
+    command: noop
+
+  add-svc:
+    description: Add service
+    command: noop
+
+  add-pipe:
+    description: Add pipe
+    command: noop
